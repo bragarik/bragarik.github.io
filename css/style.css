@@ -1,0 +1,116 @@
+body {
+    font-family: 'IBM Plex Mono', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+    background: #2c2f34;
+    color: #f2f2f2;
+}
+
+.content {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.footer .copyright {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center
+}
+
+.footer .copyright>:first-child:not(:only-child) {
+    margin-right: 10px
+}
+
+.comment {
+    color: green;
+    border-left: none;
+    background: #2c2f34;
+}
+
+.comment .highlight {
+    font-weight: bold;
+}
+
+.mod {
+    color: orangered;
+}
+
+.class {
+    color: cornflowerblue;
+}
+
+.return {
+    color: darkorchid;
+}
+
+.string {
+    color: indianred;
+}
+
+.object {
+    color: darkorchid;
+}
+
+.cursor {
+    border-right: .15em solid white; 
+    white-space: nowrap; 
+    margin: 0 auto; 
+    letter-spacing: .15em; 
+    animation: 
+        blink-caret .75s step-end infinite !important; 
+}
+
+hr {
+    border: 1px solid #40444b;
+}
+
+h5, h6, blockquote {
+    margin-left: 1.5vw;
+}
+
+.icon {
+    font-size: 3vw;
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: white; }
+}
+
+/*black theme*/
+.navigation .title,
+.navigation-title {
+    color: #f2f2f2;
+}
+
+.navigation {
+    background: #34373c;
+    border-bottom: 0.1rem solid #1b1c1d;
+}
+
+.header {
+    background-color: #141518;
+}
+
+pre {
+    background: #141518;
+}
+
+.prettyprint {
+    color: #f2f2f2;
+}
+
+.prettyprint.lang-md * {
+    color: #f2f2f2 !important;
+}
+
+code {
+    background: #141518;
+}
+
+a {
+    color: chartreuse;
+}
+
+.prettyprint .atv {
+    color: rgba(73, 158, 223, 1);
+}
